@@ -67,6 +67,6 @@
     "@typescript-eslint/member-ordering": ["warn", { "default": ["field", "constructor", "method"] }],
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
-    "import/no-extraneous-dependencies": ["warn", {"devDependencies": ["**/*.test.ts", "**/*.test.tsx"]}]
+    "import/no-extraneous-dependencies": ["off", {"devDependencies": ["**/*.test.ts", "**/*.test.tsx"]}]
     }
 }
