@@ -7,13 +7,75 @@ Object {
     <div>
       <div
         class="App"
-      />
+      >
+        <div
+          class="page"
+        >
+          <header
+            class="header"
+          >
+            <span
+              class="header__title"
+            >
+              Schedules
+            </span>
+            <span
+              class="header__navigation"
+            >
+              Navigation
+            </span>
+          </header>
+          <aside
+            class="sidebar"
+          >
+            <div>
+              sd
+            </div>
+          </aside>
+          <div
+            class="main"
+          >
+            hi
+          </div>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
     <div
       class="App"
-    />
+    >
+      <div
+        class="page"
+      >
+        <header
+          class="header"
+        >
+          <span
+            class="header__title"
+          >
+            Schedules
+          </span>
+          <span
+            class="header__navigation"
+          >
+            Navigation
+          </span>
+        </header>
+        <aside
+          class="sidebar"
+        >
+          <div>
+            sd
+          </div>
+        </aside>
+        <div
+          class="main"
+        >
+          hi
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
