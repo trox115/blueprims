@@ -7,17 +7,13 @@ Object {
     <div>
       <div
         class="App"
-      >
-        this is it
-      </div>
+      />
     </div>
   </body>,
   "container": <div>
     <div
       class="App"
-    >
-      this is it
-    </div>
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
