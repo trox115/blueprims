@@ -6,23 +6,21 @@ import ScheduleState from '../../interfaces/ScheduleState';
 
 export default createModel()({
   state: {
-
+    list: [],
   } as ScheduleState,
 
   reducers: {
     setSchedule(state, schedule) {
-      return { ...state, schedule };
+      return { ...state, list: schedule };
     },
   },
 
   effects: (dispatch) => ({
-
     async getSchedules(): Promise<void> {
       try {
         const response = await get(replaceUrls(apiUrls.schedule));
-
         if (response && response.status === 200) {
-          dispatch.account.setSchedule(response.data.results);
+          dispatch.schedules.setSchedule(response.data);
         }
       } catch (error) {
         // TODO: Handle error

@@ -1,6 +1,6 @@
 export const apiUrls = {
   // SCHEDULE
-  schedule: '/schedule',
+  schedule: '/schedules',
   // LOGS
   logs: '/schedule/logs',
 };

@@ -27,11 +27,7 @@ Object {
           </header>
           <aside
             class="sidebar"
-          >
-            <div>
-              sd
-            </div>
-          </aside>
+          />
           <div
             class="main"
           >
@@ -64,11 +60,7 @@ Object {
         </header>
         <aside
           class="sidebar"
-        >
-          <div>
-            sd
-          </div>
-        </aside>
+        />
         <div
           class="main"
         >
